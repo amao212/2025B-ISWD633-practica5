@@ -3,10 +3,10 @@ Comparando sus conocimientos antes de hacer la práctica con sus conocimientos d
 Si solucionó un problema presentado al realizar la práctica también se debe documentar.
 
 
-En esta practica aprendi sobre el docker compose, que es una herramienta que nos ayuda a definir y controlar diferentes contenedores al mismo tiempo, tambien los volumenes y las redes, una vez completado el archivo con los contenedors, volumens y redes, solo hay que ejecutarlo con un comando "docker compose up -d".
+En esta práctica aprendí sobre Docker Compose, una herramienta que nos ayuda a definir y controlar diferentes contenedores al mismo tiempo, así como los volúmenes y las redes. Una vez completado el archivo con los contenedores, volúmenes y redes, solo hay que ejecutarlo con el comando: docker compose up -d
 
-También hay que tener en cuenta los espacios para la identación, o sino sabe dar error.
+También es importante tener en cuenta los espacios para la indentación, ya que de lo contrario puede generar errores.
 
-Al realizar el primer ejercicio, llené los espacios faltantes en el compose.yaml, y se le ejecuto, al ejecutar me salio que ya no era necesario poner la versión, y se lo elimino, tambien tuve algunos errores debido a los espacios, lo solucione y ya se ejecuto correctamente.
+Al realizar el primer ejercicio, llené los espacios faltantes en el docker-compose.yaml y se ejecutó correctamente. Al ejecutar el archivo, me indicó que ya no era necesario poner la versión, por lo que la eliminé. También tuve algunos errores debido a la indentación, los cuales solucioné y finalmente el archivo se ejecutó correctamente.
 
-En el ejercicio del SonarQube, utilize la misma estructura del ejercicio anterios, se cambio los datos necesarios para que funcione, también busqué en docket hub los volumenes necesarios para postgres y sonarqube, y se ejecuto correctamente, con el comando "docker compose ps" se logro listar los contenedores que se crearon y luego ingrese al localhost:9000 desde la web y si funciono.
+En el ejercicio de SonarQube, utilicé la misma estructura del ejercicio anterior, cambiando los datos necesarios para que funcionara. Además, busqué en Docker Hub los volúmenes necesarios para PostgreSQL y SonarQube, y se ejecutó correctamente. Con el comando "docker compose ps" se logró listar los contenedores creados, e ingresé a localhost:9000 desde el navegador, donde funcionó correctamente.
