@@ -7,6 +7,6 @@ En esta practica aprendi sobre el docker compose, que es una herramienta que nos
 
 También hay que tener en cuenta los espacios para la identación, o sino sabe dar error.
 
-Al realizar el primer ejercicio, se lleno los espacios faltantes en el compose.yaml, y se le ejecuto, al ejecutar me salio que ya no era necesario poner la versión, y lo elimine, tambien tuve algunos errores debido a los espacios, lo solucione y ya se ejecuto correctamente.
+Al realizar el primer ejercicio, llené los espacios faltantes en el compose.yaml, y se le ejecuto, al ejecutar me salio que ya no era necesario poner la versión, y se lo elimino, tambien tuve algunos errores debido a los espacios, lo solucione y ya se ejecuto correctamente.
 
 En el ejercicio del SonarQube, utilize la misma estructura del ejercicio anterios, se cambio los datos necesarios para que funcione, también busqué en docket hub los volumenes necesarios para postgres y sonarqube, y se ejecuto correctamente, con el comando "docker compose ps" se logro listar los contenedores que se crearon y luego ingrese al localhost:9000 desde la web y si funciono.
